@@ -3,4 +3,4 @@ project(mini_stl)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(mini_stl main.cpp Container/Vector.cpp Container/Vector.h)
+add_executable(mini_stl main.cpp Container/Vector.cpp Container/Vector.h Allocator/alloc.cpp Allocator/alloc.h)

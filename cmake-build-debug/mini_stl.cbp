@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/djc/myspace/learning/cpp/project/clion/doit/mini_stl/Allocator/alloc.cpp">
+			<Option target="mini_stl"/>
+		</Unit>
+		<Unit filename="/home/djc/myspace/learning/cpp/project/clion/doit/mini_stl/Allocator/alloc.h">
+			<Option target="mini_stl"/>
+		</Unit>
 		<Unit filename="/home/djc/myspace/learning/cpp/project/clion/doit/mini_stl/Container/Vector.cpp">
 			<Option target="mini_stl"/>
 		</Unit>

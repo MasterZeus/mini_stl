@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/djc/myspace/learning/cpp/project/clion/doit/mini_stl/Allocator/alloc.cpp
+alloc.h
+/home/djc/myspace/learning/cpp/project/clion/doit/mini_stl/Allocator/alloc.h
+
+/home/djc/myspace/learning/cpp/project/clion/doit/mini_stl/Allocator/alloc.h
+cstdlib
+-
+
+/home/djc/myspace/learning/cpp/project/clion/doit/mini_stl/Container/Vector.cpp
+Vector.h
+/home/djc/myspace/learning/cpp/project/clion/doit/mini_stl/Container/Vector.h
+
+/home/djc/myspace/learning/cpp/project/clion/doit/mini_stl/Container/Vector.h
+
+/home/djc/myspace/learning/cpp/project/clion/doit/mini_stl/main.cpp
+iostream
+-
+

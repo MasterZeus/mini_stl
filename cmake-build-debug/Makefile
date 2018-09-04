@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/djc/myspace/learning/clion-2018.1.1/bin/cmake/bin/cmake
+CMAKE_COMMAND = /opt/clion/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/djc/myspace/learning/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
+RM = /opt/clion/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/djc/myspace/learning/cpp/project/clion/doit/mini_stl/cm
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/djc/myspace/learning/clion-2018.1.1/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/clion/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/djc/myspace/learning/clion-2018.1.1/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/opt/clion/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -122,6 +122,33 @@ mini_stl: cmake_check_build_system
 mini_stl/fast:
 	$(MAKE) -f CMakeFiles/mini_stl.dir/build.make CMakeFiles/mini_stl.dir/build
 .PHONY : mini_stl/fast
+
+Allocator/alloc.o: Allocator/alloc.cpp.o
+
+.PHONY : Allocator/alloc.o
+
+# target to build an object file
+Allocator/alloc.cpp.o:
+	$(MAKE) -f CMakeFiles/mini_stl.dir/build.make CMakeFiles/mini_stl.dir/Allocator/alloc.cpp.o
+.PHONY : Allocator/alloc.cpp.o
+
+Allocator/alloc.i: Allocator/alloc.cpp.i
+
+.PHONY : Allocator/alloc.i
+
+# target to preprocess a source file
+Allocator/alloc.cpp.i:
+	$(MAKE) -f CMakeFiles/mini_stl.dir/build.make CMakeFiles/mini_stl.dir/Allocator/alloc.cpp.i
+.PHONY : Allocator/alloc.cpp.i
+
+Allocator/alloc.s: Allocator/alloc.cpp.s
+
+.PHONY : Allocator/alloc.s
+
+# target to generate assembly for a file
+Allocator/alloc.cpp.s:
+	$(MAKE) -f CMakeFiles/mini_stl.dir/build.make CMakeFiles/mini_stl.dir/Allocator/alloc.cpp.s
+.PHONY : Allocator/alloc.cpp.s
 
 Container/Vector.o: Container/Vector.cpp.o
 
@@ -186,6 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... mini_stl"
+	@echo "... Allocator/alloc.o"
+	@echo "... Allocator/alloc.i"
+	@echo "... Allocator/alloc.s"
 	@echo "... Container/Vector.o"
 	@echo "... Container/Vector.i"
 	@echo "... Container/Vector.s"
