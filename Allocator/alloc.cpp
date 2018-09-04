@@ -130,13 +130,13 @@ namespace mini_stl
     }
     void alloc::deallocate(void* p, size_t n)
     {
-        //1.大于128归还给堆
+        //1.大于128B归还给堆
         if (n>_MAX_BYTES)
         {
             free(p);
             return;
         }
-            //2.小于128归还给free-list
+            //2.小于等于128B归还给free-list
         else
         {
             int index = FREELIST_INDEX(n);
