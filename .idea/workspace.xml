@@ -12,10 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fbd2a64-e09d-4e22-8e03-09a5ce591aa7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Allocator/Allocator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeTrait/TypeTrait.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Allocator/alloc.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Allocator/alloc.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Allocator/alloc.h" beforeDir="false" afterPath="$PROJECT_DIR$/Allocator/alloc.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/mini_stl.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/mini_stl.cbp" afterDir="false" />
     </list>
@@ -55,22 +53,57 @@
         <entry file="file://$PROJECT_DIR$/Allocator/alloc.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3807">
-              <caret line="150" column="29" lean-forward="true" selection-start-line="150" selection-start-column="29" selection-end-line="150" selection-end-column="29" />
+              <caret line="150" column="29" selection-start-line="150" selection-start-column="29" selection-end-line="150" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Allocator.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Allocator.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Allocator/Allocator.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
+            <state relative-caret-position="540">
+              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
               <folding>
                 <element signature="e#149#158#0" expanded="true" />
                 <element signature="e#598#607#0" expanded="true" />
                 <element signature="e#725#734#0" expanded="true" />
                 <element signature="e#878#887#0" expanded="true" />
                 <element signature="e#1011#1020#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TypeTrait.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TypeTrait/TypeTrait.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2646">
+              <caret line="107" column="14" lean-forward="true" selection-start-line="107" selection-start-column="14" selection-end-line="107" selection-end-column="14" />
+              <folding>
+                <element signature="e#225#236#0" expanded="true" />
+                <element signature="e#571#573#0" expanded="true" />
+                <element signature="e#909#911#0" expanded="true" />
+                <element signature="e#1247#1249#0" expanded="true" />
+                <element signature="e#1592#1594#0" expanded="true" />
+                <element signature="e#1939#1941#0" expanded="true" />
+                <element signature="e#2280#2282#0" expanded="true" />
+                <element signature="e#2619#2621#0" expanded="true" />
+                <element signature="e#2967#2969#0" expanded="true" />
+                <element signature="e#3304#3306#0" expanded="true" />
+                <element signature="e#3650#3652#0" expanded="true" />
+                <element signature="e#3988#3990#0" expanded="true" />
+                <element signature="e#4335#4337#0" expanded="true" />
+                <element signature="e#4678#4680#0" expanded="true" />
+                <element signature="e#5030#5032#0" expanded="true" />
+                <element signature="e#5369#5371#0" expanded="true" />
+                <element signature="e#5709#5711#0" expanded="true" />
+                <element signature="e#6056#6065#0" expanded="true" />
+                <element signature="e#6399#6401#0" expanded="true" />
+                <element signature="e#6738#6740#0" expanded="true" />
+                <element signature="e#7084#7086#0" expanded="true" />
+                <element signature="e#7432#7434#0" expanded="true" />
+                <element signature="e#7777#7779#0" expanded="true" />
+                <element signature="e#8129#8131#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,6 +143,7 @@
         <option value="$PROJECT_DIR$/Allocator/alloc.cpp" />
         <option value="$PROJECT_DIR$/Allocator/alloc.h" />
         <option value="$PROJECT_DIR$/Allocator/Allocator.h" />
+        <option value="$PROJECT_DIR$/TypeTrait/TypeTrait.h" />
       </list>
     </option>
   </component>
@@ -150,6 +184,11 @@
               <item name="mini_stl" type="b2602c69:ProjectViewProjectNode" />
               <item name="mini_stl" type="462c0819:PsiDirectoryNode" />
               <item name="Container" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mini_stl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mini_stl" type="462c0819:PsiDirectoryNode" />
+              <item name="TypeTrait" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -200,12 +239,12 @@
       <workItem from="1535940082890" duration="83000" />
       <workItem from="1536063083242" duration="8524000" />
       <workItem from="1536112743823" duration="814000" />
-      <workItem from="1536327836632" duration="2910000" />
+      <workItem from="1536327836632" duration="4202000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15849000" />
+    <option name="totallyTimeSpent" value="17141000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="957" y="0" width="963" height="1035" extended-state="0" />
@@ -402,20 +441,53 @@
     <entry file="file://$PROJECT_DIR$/Allocator/alloc.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3807">
-          <caret line="150" column="29" lean-forward="true" selection-start-line="150" selection-start-column="29" selection-end-line="150" selection-end-column="29" />
+          <caret line="150" column="29" selection-start-line="150" selection-start-column="29" selection-end-line="150" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Allocator/Allocator.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
+        <state relative-caret-position="540">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
           <folding>
             <element signature="e#149#158#0" expanded="true" />
             <element signature="e#598#607#0" expanded="true" />
             <element signature="e#725#734#0" expanded="true" />
             <element signature="e#878#887#0" expanded="true" />
             <element signature="e#1011#1020#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TypeTrait/TypeTrait.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2646">
+          <caret line="107" column="14" lean-forward="true" selection-start-line="107" selection-start-column="14" selection-end-line="107" selection-end-column="14" />
+          <folding>
+            <element signature="e#225#236#0" expanded="true" />
+            <element signature="e#571#573#0" expanded="true" />
+            <element signature="e#909#911#0" expanded="true" />
+            <element signature="e#1247#1249#0" expanded="true" />
+            <element signature="e#1592#1594#0" expanded="true" />
+            <element signature="e#1939#1941#0" expanded="true" />
+            <element signature="e#2280#2282#0" expanded="true" />
+            <element signature="e#2619#2621#0" expanded="true" />
+            <element signature="e#2967#2969#0" expanded="true" />
+            <element signature="e#3304#3306#0" expanded="true" />
+            <element signature="e#3650#3652#0" expanded="true" />
+            <element signature="e#3988#3990#0" expanded="true" />
+            <element signature="e#4335#4337#0" expanded="true" />
+            <element signature="e#4678#4680#0" expanded="true" />
+            <element signature="e#5030#5032#0" expanded="true" />
+            <element signature="e#5369#5371#0" expanded="true" />
+            <element signature="e#5709#5711#0" expanded="true" />
+            <element signature="e#6056#6065#0" expanded="true" />
+            <element signature="e#6399#6401#0" expanded="true" />
+            <element signature="e#6738#6740#0" expanded="true" />
+            <element signature="e#7084#7086#0" expanded="true" />
+            <element signature="e#7432#7434#0" expanded="true" />
+            <element signature="e#7777#7779#0" expanded="true" />
+            <element signature="e#8129#8131#0" expanded="true" />
           </folding>
         </state>
       </provider>
