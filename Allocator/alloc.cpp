@@ -3,7 +3,7 @@
 //
 
 #include "alloc.h"
-namespace mini_stl
+namespace MINI_STL
 {
     alloc::obj * alloc::free_list[_NFREELISTS] = {0};
 

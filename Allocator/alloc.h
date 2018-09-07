@@ -7,7 +7,7 @@
 
 #include <cstdlib>
 
-namespace mini_stl
+namespace MINI_STL
 {
     class alloc {
     private:
