@@ -82,6 +82,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/djc/myspace/learning/cpp/project/clion/doit/mini_stl/Algorithm/Algorithm.h">
+			<Option target="mini_stl"/>
+		</Unit>
 		<Unit filename="/home/djc/myspace/learning/cpp/project/clion/doit/mini_stl/Allocator/Allocator.h">
 			<Option target="mini_stl"/>
 		</Unit>
@@ -91,13 +94,22 @@
 		<Unit filename="/home/djc/myspace/learning/cpp/project/clion/doit/mini_stl/Allocator/alloc.h">
 			<Option target="mini_stl"/>
 		</Unit>
+		<Unit filename="/home/djc/myspace/learning/cpp/project/clion/doit/mini_stl/Constructor/Constructor.h">
+			<Option target="mini_stl"/>
+		</Unit>
 		<Unit filename="/home/djc/myspace/learning/cpp/project/clion/doit/mini_stl/Container/Vector.cpp">
 			<Option target="mini_stl"/>
 		</Unit>
 		<Unit filename="/home/djc/myspace/learning/cpp/project/clion/doit/mini_stl/Container/Vector.h">
 			<Option target="mini_stl"/>
 		</Unit>
+		<Unit filename="/home/djc/myspace/learning/cpp/project/clion/doit/mini_stl/Iterator/Iterator.h">
+			<Option target="mini_stl"/>
+		</Unit>
 		<Unit filename="/home/djc/myspace/learning/cpp/project/clion/doit/mini_stl/TypeTrait/TypeTrait.h">
+			<Option target="mini_stl"/>
+		</Unit>
+		<Unit filename="/home/djc/myspace/learning/cpp/project/clion/doit/mini_stl/Uninitial.h">
 			<Option target="mini_stl"/>
 		</Unit>
 		<Unit filename="/home/djc/myspace/learning/cpp/project/clion/doit/mini_stl/main.cpp">

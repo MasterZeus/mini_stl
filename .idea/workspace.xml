@@ -12,7 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7fbd2a64-e09d-4e22-8e03-09a5ce591aa7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/TypeTrait/TypeTrait.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/Algorithm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Constructor/Constructor.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Iterator/Iterator.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Uninitial.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/mini_stl.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/mini_stl.cbp" afterDir="false" />
@@ -52,58 +55,101 @@
       <file leaf-file-name="alloc.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Allocator/alloc.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3807">
+            <state relative-caret-position="672">
               <caret line="150" column="29" selection-start-line="150" selection-start-column="29" selection-end-line="150" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Allocator.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Allocator/Allocator.h">
+      <file leaf-file-name="TypeTrait.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TypeTrait/TypeTrait.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+            <state relative-caret-position="1107">
+              <caret line="107" column="14" selection-start-line="107" selection-start-column="14" selection-end-line="107" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Constructor.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Constructor/Constructor.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-192">
+              <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
               <folding>
-                <element signature="e#149#158#0" expanded="true" />
-                <element signature="e#598#607#0" expanded="true" />
-                <element signature="e#725#734#0" expanded="true" />
-                <element signature="e#878#887#0" expanded="true" />
-                <element signature="e#1011#1020#0" expanded="true" />
+                <element signature="e#99#113#0" expanded="true" />
+                <element signature="e#202#221#0" expanded="true" />
+                <element signature="e#344#353#0" expanded="true" />
+                <element signature="e#439#462#0" expanded="true" />
+                <element signature="e#605#636#0" expanded="true" />
+                <element signature="e#875#898#0" expanded="true" />
+                <element signature="e#1090#1113#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TypeTrait.h" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TypeTrait/TypeTrait.h">
+      <file leaf-file-name="Algorithm.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithm/Algorithm.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2646">
-              <caret line="107" column="14" lean-forward="true" selection-start-line="107" selection-start-column="14" selection-end-line="107" selection-end-column="14" />
+            <state relative-caret-position="269">
+              <caret line="151" column="5" selection-start-line="151" selection-start-column="5" selection-end-line="151" selection-end-column="5" />
               <folding>
-                <element signature="e#225#236#0" expanded="true" />
-                <element signature="e#571#573#0" expanded="true" />
-                <element signature="e#909#911#0" expanded="true" />
-                <element signature="e#1247#1249#0" expanded="true" />
-                <element signature="e#1592#1594#0" expanded="true" />
-                <element signature="e#1939#1941#0" expanded="true" />
-                <element signature="e#2280#2282#0" expanded="true" />
-                <element signature="e#2619#2621#0" expanded="true" />
-                <element signature="e#2967#2969#0" expanded="true" />
-                <element signature="e#3304#3306#0" expanded="true" />
-                <element signature="e#3650#3652#0" expanded="true" />
-                <element signature="e#3988#3990#0" expanded="true" />
-                <element signature="e#4335#4337#0" expanded="true" />
-                <element signature="e#4678#4680#0" expanded="true" />
-                <element signature="e#5030#5032#0" expanded="true" />
-                <element signature="e#5369#5371#0" expanded="true" />
-                <element signature="e#5709#5711#0" expanded="true" />
-                <element signature="e#6056#6065#0" expanded="true" />
-                <element signature="e#6399#6401#0" expanded="true" />
-                <element signature="e#6738#6740#0" expanded="true" />
-                <element signature="e#7084#7086#0" expanded="true" />
-                <element signature="e#7432#7434#0" expanded="true" />
-                <element signature="e#7777#7779#0" expanded="true" />
-                <element signature="e#8129#8131#0" expanded="true" />
+                <element signature="e#95#112#0" expanded="true" />
+                <element signature="e#175#184#0" expanded="true" />
+                <element signature="e#281#290#0" expanded="true" />
+                <element signature="e#387#396#0" expanded="true" />
+                <element signature="e#728#759#0" expanded="true" />
+                <element signature="e#919#961#0" expanded="true" />
+                <element signature="e#1363#1405#0" expanded="true" />
+                <element signature="e#1981#2023#0" expanded="true" />
+                <element signature="e#2258#2267#0" expanded="true" />
+                <element signature="e#2525#2534#0" expanded="true" />
+                <element signature="e#2859#2901#0" expanded="true" />
+                <element signature="e#3144#3193#0" expanded="true" />
+                <element signature="e#3467#3531#0" expanded="true" />
+                <element signature="e#3817#3826#0" expanded="true" />
+                <element signature="e#4009#4018#0" expanded="true" />
+                <element signature="e#4382#4426#0" expanded="true" />
+                <element signature="e#4898#4969#0" expanded="true" />
+                <element signature="e#5455#5514#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Uninitial.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Uninitial.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Iterator.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Iterator/Iterator.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="130" column="5" selection-start-line="130" selection-start-column="5" selection-end-line="130" selection-end-column="5" />
+              <folding>
+                <element signature="e#442#467#0" expanded="true" />
+                <element signature="e#1008#1033#0" expanded="true" />
+                <element signature="e#1293#1318#0" expanded="true" />
+                <element signature="e#1594#1619#0" expanded="true" />
+                <element signature="e#1906#2013#0" expanded="true" />
+                <element signature="e#2263#2279#0" expanded="true" />
+                <element signature="e#2667#2676#0" expanded="true" />
+                <element signature="e#2953#2962#0" expanded="true" />
+                <element signature="e#3267#3283#0" expanded="true" />
+                <element signature="e#3537#3553#0" expanded="true" />
+                <element signature="e#3764#3780#0" expanded="true" />
+                <element signature="e#4008#4029#0" expanded="true" />
+                <element signature="e#4346#4374#0" expanded="true" />
+                <element signature="e#4594#4615#0" expanded="true" />
+                <element signature="e#4912#4948#0" expanded="true" />
+                <element signature="e#5071#5115#0" expanded="true" />
+                <element signature="e#5357#5400#0" expanded="true" />
+                <element signature="e#5531#5567#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -144,6 +190,10 @@
         <option value="$PROJECT_DIR$/Allocator/alloc.h" />
         <option value="$PROJECT_DIR$/Allocator/Allocator.h" />
         <option value="$PROJECT_DIR$/TypeTrait/TypeTrait.h" />
+        <option value="$PROJECT_DIR$/Iterator/Iterator.h" />
+        <option value="$PROJECT_DIR$/Constructor/Constructor.h" />
+        <option value="$PROJECT_DIR$/Algorithm/Algorithm.h" />
+        <option value="$PROJECT_DIR$/Uninitial.h" />
       </list>
     </option>
   </component>
@@ -157,17 +207,16 @@
     <packageJsonPaths />
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="957" />
-    <option name="width" value="963" />
-    <option name="height" value="1035" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="width" value="877" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,12 +227,12 @@
             <path>
               <item name="mini_stl" type="b2602c69:ProjectViewProjectNode" />
               <item name="mini_stl" type="462c0819:PsiDirectoryNode" />
-              <item name="Allocator" type="462c0819:PsiDirectoryNode" />
+              <item name="Constructor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mini_stl" type="b2602c69:ProjectViewProjectNode" />
               <item name="mini_stl" type="462c0819:PsiDirectoryNode" />
-              <item name="Container" type="462c0819:PsiDirectoryNode" />
+              <item name="Iterator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mini_stl" type="b2602c69:ProjectViewProjectNode" />
@@ -194,6 +243,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -240,17 +290,19 @@
       <workItem from="1536063083242" duration="8524000" />
       <workItem from="1536112743823" duration="814000" />
       <workItem from="1536327836632" duration="4202000" />
+      <workItem from="1536373721786" duration="620000" />
+      <workItem from="1536500646254" duration="2596000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17141000" />
+    <option name="totallyTimeSpent" value="20357000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="957" y="0" width="963" height="1035" extended-state="0" />
+    <frame x="-8" y="0" width="1936" height="1043" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="2" weight="0.5170893" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.19840425" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="CMake" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -277,6 +329,102 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Container/Vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#98#110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Allocator/alloc.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4050">
+          <caret line="150" column="29" selection-start-line="150" selection-start-column="29" selection-end-line="150" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Allocator/Allocator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="e#149#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Allocator/alloc.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TypeTrait/TypeTrait.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2673">
+          <caret line="99" column="30" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Container/Vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#98#110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Allocator/alloc.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4050">
+          <caret line="150" column="29" selection-start-line="150" selection-start-column="29" selection-end-line="150" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Allocator/Allocator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="e#149#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Allocator/alloc.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TypeTrait/TypeTrait.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2889">
+          <caret line="107" column="14" lean-forward="true" selection-start-line="107" selection-start-column="14" selection-end-line="107" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -425,9 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
           <caret line="212" lean-forward="true" selection-start-line="212" selection-end-line="212" />
-          <folding>
-            <element signature="e#7218#7257#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -438,10 +583,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Allocator/alloc.cpp">
+    <entry file="file://$PROJECT_DIR$/TypeTrait/TypeTrait.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3807">
-          <caret line="150" column="29" selection-start-line="150" selection-start-column="29" selection-end-line="150" selection-end-column="29" />
+        <state relative-caret-position="1107">
+          <caret line="107" column="14" selection-start-line="107" selection-start-column="14" selection-end-line="107" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -451,44 +596,91 @@
           <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
           <folding>
             <element signature="e#149#158#0" expanded="true" />
-            <element signature="e#598#607#0" expanded="true" />
-            <element signature="e#725#734#0" expanded="true" />
-            <element signature="e#878#887#0" expanded="true" />
-            <element signature="e#1011#1020#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TypeTrait/TypeTrait.h">
+    <entry file="file://$PROJECT_DIR$/Allocator/alloc.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2646">
-          <caret line="107" column="14" lean-forward="true" selection-start-line="107" selection-start-column="14" selection-end-line="107" selection-end-column="14" />
+        <state relative-caret-position="672">
+          <caret line="150" column="29" selection-start-line="150" selection-start-column="29" selection-end-line="150" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Iterator/Iterator.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="130" column="5" selection-start-line="130" selection-start-column="5" selection-end-line="130" selection-end-column="5" />
           <folding>
-            <element signature="e#225#236#0" expanded="true" />
-            <element signature="e#571#573#0" expanded="true" />
-            <element signature="e#909#911#0" expanded="true" />
-            <element signature="e#1247#1249#0" expanded="true" />
-            <element signature="e#1592#1594#0" expanded="true" />
-            <element signature="e#1939#1941#0" expanded="true" />
-            <element signature="e#2280#2282#0" expanded="true" />
-            <element signature="e#2619#2621#0" expanded="true" />
-            <element signature="e#2967#2969#0" expanded="true" />
-            <element signature="e#3304#3306#0" expanded="true" />
-            <element signature="e#3650#3652#0" expanded="true" />
-            <element signature="e#3988#3990#0" expanded="true" />
-            <element signature="e#4335#4337#0" expanded="true" />
-            <element signature="e#4678#4680#0" expanded="true" />
-            <element signature="e#5030#5032#0" expanded="true" />
-            <element signature="e#5369#5371#0" expanded="true" />
-            <element signature="e#5709#5711#0" expanded="true" />
-            <element signature="e#6056#6065#0" expanded="true" />
-            <element signature="e#6399#6401#0" expanded="true" />
-            <element signature="e#6738#6740#0" expanded="true" />
-            <element signature="e#7084#7086#0" expanded="true" />
-            <element signature="e#7432#7434#0" expanded="true" />
-            <element signature="e#7777#7779#0" expanded="true" />
-            <element signature="e#8129#8131#0" expanded="true" />
+            <element signature="e#442#467#0" expanded="true" />
+            <element signature="e#1008#1033#0" expanded="true" />
+            <element signature="e#1293#1318#0" expanded="true" />
+            <element signature="e#1594#1619#0" expanded="true" />
+            <element signature="e#1906#2013#0" expanded="true" />
+            <element signature="e#2263#2279#0" expanded="true" />
+            <element signature="e#2667#2676#0" expanded="true" />
+            <element signature="e#2953#2962#0" expanded="true" />
+            <element signature="e#3267#3283#0" expanded="true" />
+            <element signature="e#3537#3553#0" expanded="true" />
+            <element signature="e#3764#3780#0" expanded="true" />
+            <element signature="e#4008#4029#0" expanded="true" />
+            <element signature="e#4346#4374#0" expanded="true" />
+            <element signature="e#4594#4615#0" expanded="true" />
+            <element signature="e#4912#4948#0" expanded="true" />
+            <element signature="e#5071#5115#0" expanded="true" />
+            <element signature="e#5357#5400#0" expanded="true" />
+            <element signature="e#5531#5567#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Constructor/Constructor.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-192">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+          <folding>
+            <element signature="e#99#113#0" expanded="true" />
+            <element signature="e#202#221#0" expanded="true" />
+            <element signature="e#344#353#0" expanded="true" />
+            <element signature="e#439#462#0" expanded="true" />
+            <element signature="e#605#636#0" expanded="true" />
+            <element signature="e#875#898#0" expanded="true" />
+            <element signature="e#1090#1113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/Algorithm.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="151" column="5" selection-start-line="151" selection-start-column="5" selection-end-line="151" selection-end-column="5" />
+          <folding>
+            <element signature="e#95#112#0" expanded="true" />
+            <element signature="e#175#184#0" expanded="true" />
+            <element signature="e#281#290#0" expanded="true" />
+            <element signature="e#387#396#0" expanded="true" />
+            <element signature="e#728#759#0" expanded="true" />
+            <element signature="e#919#961#0" expanded="true" />
+            <element signature="e#1363#1405#0" expanded="true" />
+            <element signature="e#1981#2023#0" expanded="true" />
+            <element signature="e#2258#2267#0" expanded="true" />
+            <element signature="e#2525#2534#0" expanded="true" />
+            <element signature="e#2859#2901#0" expanded="true" />
+            <element signature="e#3144#3193#0" expanded="true" />
+            <element signature="e#3467#3531#0" expanded="true" />
+            <element signature="e#3817#3826#0" expanded="true" />
+            <element signature="e#4009#4018#0" expanded="true" />
+            <element signature="e#4382#4426#0" expanded="true" />
+            <element signature="e#4898#4969#0" expanded="true" />
+            <element signature="e#5455#5514#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Uninitial.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
