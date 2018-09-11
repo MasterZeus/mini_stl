@@ -157,5 +157,164 @@ namespace MINI_STL {
         return _copy_backward(first, last, dest, iterator_category(first), difference_type(first));
     }
 
+
+    /************************************************************************/
+    /* equal:[first1,last1)to[first2...)序列二中多的元素不予考虑
+    */
+    /************************************************************************/
+    template <class InputIterator1,class InputIterator2>
+    inline bool equal(InputIterator1 first1,InputIterator1 last1,InputIterator2 first2)
+    {
+        while (first1!=last1)
+        {
+            if (*first1!=*first2)
+            {
+                return false;
+            }
+            ++first1;
+            ++first2;
+        }
+        return true;
+    }
+
+    template <class InputIterator1,class InputIterator2,class BinaryPredicate>
+    inline bool equal(InputIterator1 first1,InputIterator1 last1,InputIterator2 first2,BinaryPredicate binary_pred)
+    {
+        while (first1!=last1)
+        {
+            if (!binary_pred(*first1,*first2))
+            {
+                return false;
+            }
+            ++first1;
+            ++first2;
+        }
+        return true;
+    }
+
+    /************************************************************************/
+    /* lexicographical_compare:[first1,last1)to[first2,last2)
+    */
+    /************************************************************************/
+    template <class InputIterator1,class InputIterator2>
+    bool lexicographical_compare(InputIterator1 first1,InputIterator1 last1,
+                                 InputIterator2 first2,InputIterator2 last2)
+    {
+        while(first1!=last1&&first2!=last2)
+        {
+            if (*first1<*first2)
+            {
+                return true;
+            }
+            if (*first1>*first2)
+            {
+                return false;
+            }
+        }
+        return first1==last1&&first2!=last2;
+    }
+
+    template <class InputIterator1,class InputIterator2,class Compare>
+    bool lexicographical_compare(InputIterator1 first1,InputIterator1 last1,
+                                 InputIterator2 first2,InputIterator2 last2,
+                                 Compare comp)
+    {
+        while(first1!=last1&&first2!=last2)
+        {
+            if (comp(*first1,*first2))
+            {
+                return true;
+            }
+            if (comp(*first2,*first1))
+            {
+                return false;
+            }
+        }
+        return first1==last1&&first2!=last2;
+    }
+
+    template <class InputIterator,class T>
+    T accumulate(InputIterator first,InputIterator last,T init)
+    {
+        while(first!=last)
+        {
+            init = init + *first;
+            ++first;
+        }
+        return init;
+    }
+
+    template <class InputIterator,class T,class BinaryOperation>
+    T accumulate(InputIterator first,InputIterator last,T init,BinaryOperation op)
+    {
+        while(first!=last)
+        {
+            init = op(init ,*first);
+            ++first;
+        }
+        return init;
+    }
+
+    template <class InputIterator,class T>
+    InputIterator find(InputIterator first,InputIterator last,const T& value)
+    {
+        while (first!=last && *first!=value)
+        {
+            ++first;
+        }
+        return first;
+    }
+
+    template <class ForwardIterator,class T>
+    inline ForwardIterator lower_bound(ForwardIterator first,ForwardIterator last,const T& value)
+    {
+        return _lower_bound(first,last,value,difference_type(first),iterator_category(first));
+    }
+
+    template <class ForwardIterator,class T,class Distance>
+    inline ForwardIterator _lower_bound(ForwardIterator first,ForwardIterator last,const T& value,Distance*,forward_iterator_tag)
+    {
+        Distance len = distance(first,last);
+        Distance half;
+        ForwardIterator mid;
+        while(len>0)
+        {
+            half = len>>1;
+            mid = first;
+            advance(mid,half);
+            if(*mid<value)
+            {
+                first = mid;
+                ++first;
+                len = len-half-1;
+            }
+            else
+                len = half;
+        }
+        return first;
+    }
+
+    template <class ForwardIterator,class T,class Distance>
+    inline ForwardIterator _lower_bound(ForwardIterator first,ForwardIterator last,const T& value,Distance*,random_access_iterator_tag)
+    {
+        Distance len = distance(first,last);
+        Distance half;
+        ForwardIterator mid;
+        while (len>0)
+        {
+            half = len>>1;
+            mid = first+half;
+            if (*mid<value)
+            {
+                first = mid+1;
+                len = len-half-1;
+            }
+            else
+                len = half;
+        }
+        return first;
+    }
+
+
 }
 #endif //MINI_STL_ALGORITHM_H

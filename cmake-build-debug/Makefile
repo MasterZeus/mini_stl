@@ -150,33 +150,6 @@ Allocator/alloc.cpp.s:
 	$(MAKE) -f CMakeFiles/mini_stl.dir/build.make CMakeFiles/mini_stl.dir/Allocator/alloc.cpp.s
 .PHONY : Allocator/alloc.cpp.s
 
-Container/Vector.o: Container/Vector.cpp.o
-
-.PHONY : Container/Vector.o
-
-# target to build an object file
-Container/Vector.cpp.o:
-	$(MAKE) -f CMakeFiles/mini_stl.dir/build.make CMakeFiles/mini_stl.dir/Container/Vector.cpp.o
-.PHONY : Container/Vector.cpp.o
-
-Container/Vector.i: Container/Vector.cpp.i
-
-.PHONY : Container/Vector.i
-
-# target to preprocess a source file
-Container/Vector.cpp.i:
-	$(MAKE) -f CMakeFiles/mini_stl.dir/build.make CMakeFiles/mini_stl.dir/Container/Vector.cpp.i
-.PHONY : Container/Vector.cpp.i
-
-Container/Vector.s: Container/Vector.cpp.s
-
-.PHONY : Container/Vector.s
-
-# target to generate assembly for a file
-Container/Vector.cpp.s:
-	$(MAKE) -f CMakeFiles/mini_stl.dir/build.make CMakeFiles/mini_stl.dir/Container/Vector.cpp.s
-.PHONY : Container/Vector.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -216,9 +189,6 @@ help:
 	@echo "... Allocator/alloc.o"
 	@echo "... Allocator/alloc.i"
 	@echo "... Allocator/alloc.s"
-	@echo "... Container/Vector.o"
-	@echo "... Container/Vector.i"
-	@echo "... Container/Vector.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

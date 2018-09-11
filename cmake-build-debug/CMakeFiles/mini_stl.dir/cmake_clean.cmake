@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mini_stl.dir/main.cpp.o"
-  "CMakeFiles/mini_stl.dir/Container/Vector.cpp.o"
   "CMakeFiles/mini_stl.dir/Allocator/alloc.cpp.o"
   "mini_stl.pdb"
   "mini_stl"
